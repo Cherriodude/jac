@@ -1,0 +1,45 @@
+health: 500
+size: 3
+
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 30
+liquidCapacity: 100
+
+requirements: [
+    phase-fabric/120
+    lead/200
+    silicon/200
+    titanium/140
+    thorium/180
+    surge-alloy/100
+    phase-fabric/50
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 8
+            },
+            {
+                item: phase-fabric
+                amount: 3
+            },
+            sand/30
+            plastanium/12
+        ]
+    }
+    liquid: {
+        liquid: cryofluid
+        amount: 0.8
+    }
+    power: 20
+}
+outputItem: phase-fabric/4
+craftTime: 60
+
+category: crafting
+research: phase-weaver

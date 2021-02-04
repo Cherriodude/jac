@@ -1,0 +1,8 @@
+name: jac
+displayName: Just Another Crafter
+description: Adds more production blocks.
+author: Cherrio
+version: 1.0
+main: h
+minGameVersion: 120
+repo: Cherriodude/jac
