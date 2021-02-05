@@ -15,3 +15,4 @@ const weaverOut = new Effect (60, e => { //아이템 생성 그래픽 효과
 
 phaseConstructor.drawer = new DrawWeave();
 phaseConstructor.craftEffect = weaverOut;
+//All of the codes are copied from sharlotte--mobile/ExampleMod
