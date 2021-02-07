@@ -1,4 +1,6 @@
 {
+  "name": "Phase Contructor",
+  "description": "Mixes thorium, silicon, sand to create phase. Uses cyrofluid as a coolant and plastanium to mix.",
   "health": 360,
   "size": 3,
   "hasItems": true,
