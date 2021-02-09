@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plastanium Squeezer",
+  "description": "Synthesizes spore with titanium and oil to produce plastanium faster.",
+  "health": 160,
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "requirements": [
+    "lead/175",
+    "titanium/125",
+    "graphite/80",
+    "silicon/125",
+    "plastanium/40"
+  ],
+  "consumes": {
+    "items": {
+      "items": [
+        "titanium/4",
+        "spore/2"
+      ]
+    },
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.5
+    },
+    "power": 6
+  },
+  "outputItem": "plastanium/2",
+  "craftTime": 20,
+  "category": "crafting",
+  "research": "plastanium-compressor"
+}

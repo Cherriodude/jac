@@ -1,37 +1,28 @@
 {
   "name": "Phase Contructor",
-  "description": "Mixes thorium, silicon, sand to create phase. Uses cyrofluid as a coolant and plastanium to mix.",
+  "description": "Uses thorium, silicon and sand to create phase.",
   "health": 360,
   "size": 3,
   "hasItems": true,
   "hasLiquids": true,
   "hasPower": true,
-  "itemCapacity": 30,
+  "itemCapacity": 50,
   "liquidCapacity": 100,
   "requirements": [
-    "phase-fabric/120",
     "lead/300",
     "silicon/125",
     "titanium/140",
     "thorium/200",
-    "surge-alloy/25",
+    "plastanium/25",
     "phase-fabric/50"
   ],
   "consumes": {
     "items": {
       "items": [
-        {
-          "item": "silicon",
-          "amount": 8
-        },
         "thorium/25",
         "sand/30",
-        "plastanium/12"
+        "silicon/12"
       ]
-    },
-    "liquid": {
-      "liquid": "cryofluid",
-      "amount": 0.8
     },
     "power": 9.17
   },

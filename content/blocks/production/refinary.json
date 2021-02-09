@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Refinary",
+  "description": "Refines scrap into sand.",
+  "health": 160,
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "drawer": "DrawRotator",
+  "ambientSound": "grinding",
+  "ambiendSoundVolume": 0.50,
+  "updateEffect": "pulverizeSmall",
+  "craftEffect": "pulverize",
+  "requirements": [
+    "lead/100",
+    "copper/125",
+    "graphite/50",
+    "silicon/15"
+  ],
+  "consumes": {
+    "items": {
+      "items": [
+        "scrap/5"
+      ]
+    },
+    "power": 0.75
+  },
+  "outputItem": "sand/5",
+  "craftTime": 30,
+  "category": "crafting",
+  "research": "pulverizer"
+}
