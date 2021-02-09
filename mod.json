@@ -6,6 +6,5 @@
 "version": 1.0,
 "main": "h",
 "minGameVersion": 120,
-"repo": "Cherriodude/jac",
-"dependencies":["multi-lib"]
+"repo": "Cherriodude/jac"
 }
