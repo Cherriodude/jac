@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "name": "Refinary",
+  "localizedName": "Refinary",
   "description": "Refines scrap into sand. Requires water to operate.",
   "health": 160,
   "size": 2,

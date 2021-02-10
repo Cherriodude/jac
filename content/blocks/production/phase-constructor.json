@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "name": "Phase Contructor",
+  "localizedName": "Phase Contructor",
   "description": "Uses thorium, silicon and sand to create phase.",
   "health": 360,
   "size": 3,

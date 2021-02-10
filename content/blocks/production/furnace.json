@@ -1,17 +1,16 @@
 {
-  "name": "Furnace",
+  "localizedName": "Furnace",
   "description": "Uses the heat of pyratite to mix lead and sand into metaglass",
-  "type": "GenericSmelter",
+  "type": "AttributeSmelter",
+  "boostScale": 0.15,
   "health": 360,
   "size": 3,
   "hasItems": true,
   "hasLiquids": false,
   "hasPower": true,
   "itemCapacity": 30,
-  "liquidCapacity": 100,
   "updateEffect": "smeltsmoke",
   "requirements": [
-    "metaglass/145",
     "titanium/135",
     "silicon/70",
     "plastanium/140",
@@ -20,8 +19,8 @@
   "consumes": {
     "items": {
       "items": [
-        "sand/6",
-        "lead/6",
+        "sand/4",
+        "lead/4",
         "pyratite/1"
       ]
     },

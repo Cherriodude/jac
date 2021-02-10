@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "name": "Plastanium Squeezer",
+  "localizedName": "Plastanium Synthesizer",
   "description": "Synthesizes spore with titanium and oil to produce plastanium faster.",
   "health": 160,
   "size": 3,
