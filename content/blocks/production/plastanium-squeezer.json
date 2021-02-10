@@ -3,11 +3,14 @@
   "name": "Plastanium Squeezer",
   "description": "Synthesizes spore with titanium and oil to produce plastanium faster.",
   "health": 160,
-  "size": 2,
+  "size": 3,
   "hasItems": true,
   "hasLiquids": false,
   "hasPower": true,
-  "itemCapacity": 20,
+  "itemCapacity": 20, 
+  "craftEffect": "formsmoke",
+  "updateEffect": "plasticburn",
+  "drawer": "DrawGlow",
   "requirements": [
     "lead/175",
     "titanium/125",
@@ -19,7 +22,7 @@
     "items": {
       "items": [
         "titanium/4",
-        "spore/2"
+        "spore-pod/2"
       ]
     },
     "liquid": {

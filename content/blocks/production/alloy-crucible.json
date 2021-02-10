@@ -1,0 +1,44 @@
+{
+  "type": "AttributeSmelter",
+  "boostScale": 0.12,
+  "name": "Alloy Crucible",
+  "description": "Fuses thorium, titanium, copper, lead and silicon into surge alloy. Requires water as a coolant and pyratite.",
+  "health": 720,
+  "size": 4,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 30,
+  "liquidCapacity": 100,
+  "craftEffect": "smeltsmoke",
+  "requirements": [
+    "thorium/120",
+    "lead/300",
+    "silicon/155",
+    "titanium/140",
+    "plastanium/125",
+    "surge-alloy/45",
+    "phase-fabric/25"
+  ],
+  "consumes": {
+    "items": {
+      "items": [
+        "thorium/6",
+        "titanium/9",
+        "copper/9",
+        "lead/10",
+        "silicon/7",
+        "pyratite/1"
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.08
+    },
+    "power": 8
+  },
+  "outputItem": "surge-alloy/5",
+  "craftTime": 60,
+  "category": "crafting",
+  "research": "alloy-smelter"
+}

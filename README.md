@@ -1,2 +1,2 @@
 # jac
-Just Another Crafter mod for mindustry. SPRITES ONLY.
+Just Another Crafter mod for mindustry. Releasing scripted version soon.

@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Refinary",
-  "description": "Refines scrap into sand.",
+  "description": "Refines scrap into sand. Requires water to operate.",
   "health": 160,
   "size": 2,
   "hasItems": true,
@@ -22,12 +22,16 @@
   "consumes": {
     "items": {
       "items": [
-        "scrap/5"
+        "scrap/3"
       ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.055
     },
     "power": 0.75
   },
-  "outputItem": "sand/5",
+  "outputItem": "sand/3",
   "craftTime": 30,
   "category": "crafting",
   "research": "pulverizer"
