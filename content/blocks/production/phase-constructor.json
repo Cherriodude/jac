@@ -7,7 +7,7 @@
   "hasItems": true,
   "hasLiquids": false,
   "hasPower": true,
-  "itemCapacity": 60,
+  "itemCapacity": 40,
   "drawer": "DrawWeave",
   "craftEffect": "smeltsmoke",
   "ambientSound": "techloop",
@@ -23,9 +23,9 @@
   "consumes": {
     "items": {
       "items": [
-        "thorium/25",
-        "sand/30",
-        "silicon/12"
+        "thorium/10",
+        "sand/15",
+        "silicon/5"
       ]
     },
     "power": 9.17
